@@ -1,0 +1,47 @@
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .inGame{
+        width: 500px;
+        // height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 5px solid #818181;
+        .turnPlayer{
+            font-size: 24px;
+        }
+        .question{
+            font-size: 18px;
+            color: #6e6e6e;
+        }
+        .answer{
+            display: flex;
+            flex-direction: column;
+            button{
+                    height: 26px;
+                    background-color: #fff;
+                    padding: 0;
+                    display: flex;
+                    justify-content: left;
+                    border: 2px solid #818181;
+                    margin: 3px;
+                    width: 300px;
+                a{
+                    padding:  0 10px;
+                    font-size: 18px;
+                    background-color:unset;
+
+                }
+            }
+        }
+    }
+}
+.loading{
+    color: #818181;
+}

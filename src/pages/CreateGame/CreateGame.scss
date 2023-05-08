@@ -1,0 +1,40 @@
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .inGame{
+        position: relative;
+        .CreateGame{
+            a{
+                font-size: 36px;
+            }
+            img{
+                right: 20px;
+                top: 20px;
+                position: absolute;
+                width: 32px;
+            }
+        }
+        .namePlayer{
+            width: 400px;
+            display: flex;
+            justify-content: space-around;
+            a{
+                font-size: 24px;
+            }
+            input{
+                border: 1px solid #818181;
+                height: 32px;
+                width: 200px;
+                padding: 0;
+            }
+        }
+    }
+    
+    button{
+        color: black;
+    }
+}

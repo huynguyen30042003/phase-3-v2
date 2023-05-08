@@ -1,0 +1,36 @@
+*{
+    background-color: #fff;
+    color: #818181;
+}
+a{
+    color: #818181;
+    background-color: #fff;
+}
+.main{
+    background-color: #fff;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .inGame{
+        width: 500px;
+        min-height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 5px solid #818181;
+
+        a{
+            font-size: 36px;
+            color: #818181;
+
+        }
+        button{
+            color: #fff;
+            font-style: 32px;
+        }
+    }
+}
